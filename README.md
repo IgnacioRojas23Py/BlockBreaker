@@ -10,21 +10,31 @@ Videojuego de romper bloques desarrollado en Java utilizando el framework **libG
 
 ## Ejecución
 
-### 1. Preparación del proyecto
+### 1. Obtener el proyecto
 
-1. Descargar el archivo ZIP del proyecto desde el repositorio de GitHub.
-2. Extraer el contenido del archivo ZIP en una nueva carpeta.
-3. Abrir Eclipse IDE.
+El proyecto puede obtenerse de dos maneras:
+
+**Opción A: Archivo ZIP de la entrega**
+1. Descargar el archivo ZIP proporcionado para la entrega.
+2. Extraer su contenido en una nueva carpeta.
+
+**Opción B: Descargar desde GitHub**
+1. Ingresar al repositorio de BlockBreaker.
+2. Presionar el botón **Code** y seleccionar **Download ZIP**.
+3. Extraer el archivo descargado en una nueva carpeta. La carpeta extraída puede tener el nombre `BlockBreaker-main`.
 
 ### 2. Importación en Eclipse
 
-1. En Eclipse, seleccionar **File → Import**.
-2. Buscar la categoría **Gradle** y seleccionar **Existing Gradle Project**.
-3. Presionar **Next**.
-4. En el campo **Project root directory**, seleccionar **Browse**.
-5. Buscar la carpeta donde se extrajo el proyecto.
-6. Seleccionar la carpeta raíz **BlockBreakerEntrega2**.
-7. Finalizar la importación presionando **Finish**.
+1. Abrir Eclipse IDE.
+2. Seleccionar **File → Import**.
+3. Buscar la categoría **Gradle** y seleccionar **Existing Gradle Project**.
+4. Presionar **Next**.
+5. En el campo **Project root directory**, seleccionar **Browse**.
+6. Buscar la carpeta donde se extrajo el proyecto.
+7. Seleccionar la carpeta raíz del proyecto:
+   - Si se descargó el ZIP de la entrega, seleccionar `BlockBreakerEntrega2`.
+   - Si se descargó desde GitHub, seleccionar `BlockBreaker-main`.
+8. Presionar **Finish** para completar la importación.
 
 ### 3. Ejecución del videojuego
 
@@ -43,11 +53,11 @@ Durante la importación del proyecto en Eclipse, puede aparecer el siguiente men
 
 `Compiling for Java version '1.7' is no longer supported`
 
-Para solucionar este problema, se debe ajustar el nivel de compatibilidad del compilador:
+Para solucionar este problema:
 
-1. En Eclipse, hacer clic derecho sobre el proyecto `BlockBreaker-core`.
+1. Hacer clic derecho sobre el proyecto `BlockBreaker-core`.
 2. Seleccionar **Properties**.
-3. Entrar en la sección **Java Compiler**.
+3. Entrar en **Java Compiler**.
 4. Cambiar **Compiler compliance level** a `1.8` o `11`, según la versión del JDK instalado.
 5. Presionar **Apply and Close**.
 
