@@ -10,7 +10,7 @@ public class choquePaddle implements chocar //implementa la interfaz chocar
 		if (huboChoque) 
 		{
 			pelota.rebotarEnPaddle();
-			pelota.setColor(Color.GREEN);
+			pelota.setColor(Color.LIME);
 		} 
 		else 
 		{
